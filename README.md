@@ -16,12 +16,13 @@ The following utilities and frameworks have been used to implement the mapper sy
 
 The mapper system can be viewed as a mediator between the internal and external systems. By knowing the object type of the source/input data, the appropriate strategy is used to transform it into the associated data. It avoids a direct dependency between the two systems and builds an overarching logic to map the models. It's the only component that knows the source and the target clients.
 
-![mapperchart](./resources/MapperSystemDiagram.jpg)
+ ![MapperSystemDiagram](https://github.com/user-attachments/assets/6c51b442-cb53-4fff-a8a0-66c972ed9567)
+
 
 # Use Case
 The  mapper handles 2 scenarios. In the first case the system receives a payload object from an external party. This should be converted in the associated model based on the internal or external structure. The payload can be a JSON, XML or a similar data structure. In the 2nd. scenario the mapper converts an external  object into the corresponding object. The following flowchart describes both scenarios.
 
-![mapperflowchart](./resources/MapperFlowchart.jpg)
+![MapperFlowchart](https://github.com/user-attachments/assets/a114af9c-3350-4f5e-ae5b-f1533664b3c9)
 
 ## Payload Scenario
 
@@ -45,7 +46,7 @@ The system consists of
 - the DIRS21.Core component contains  base model for the validation logic of all models
   
   
-![mapperflowchart](./resources/mapperdiagram.png)
+![MapperDiagram](https://github.com/user-attachments/assets/bde65d51-d148-44b5-959e-e192c1efbc05)
 
 
 ## MapHandler
