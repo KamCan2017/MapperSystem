@@ -1,0 +1,1249 @@
+﻿{
+  "Version": 2,
+  "Properties": {
+    "AreNodeDescriptionsVisible": "True"
+  },
+  "Nodes": [
+    {
+      "Id": "12",
+      "Name": "ILogger",
+      "Stereotype": "Interface",
+      "CreatedAtUtc": "2024-09-25T07:33:21.4002404Z",
+      "AbsoluteTopLeft": "19.7799,-504.1212",
+      "HeaderContentSize": "307.9717,91.752",
+      "PreferredHeaderSize": "222.4967,64.4",
+      "Tooltip": "interface NLog.ILogger\r\nassembly: NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c",
+      "NodeTotalSize": "307.9717,91.752",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "ILogger",
+        "FullName": "interface NLog.ILogger",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"ILogger\",\"C\":{\"K\":\"Namespace\",\"N\":\"NLog\",\"C\":{\"K\":\"Assembly\",\"N\":\"NLog\",\"V\":\"5.0.0.0\"}}}"
+        ],
+        "Description": "Provides logging interface and utility functions.",
+        "IsDescriptionVisible": true,
+        "IsAbstract": true,
+        "Accessibility": "Public",
+        "Origin": "Metadata"
+      }
+    },
+    {
+      "Id": "13",
+      "Name": "ModelMapper.Core (1.0.0.0)",
+      "Stereotype": "Assembly",
+      "CreatedAtUtc": "2024-09-25T07:35:21.8413200Z",
+      "AbsoluteTopLeft": "-940.4258,-896.9634",
+      "HeaderContentSize": "898.9244,27",
+      "PreferredHeaderSize": "213.2133,27",
+      "Tooltip": "assembly: ModelMapper.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "898.9244,725.6",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "896.9244,697.6",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "Other",
+        "SymbolName": "ModelMapper.Core",
+        "FullName": "assembly: ModelMapper.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Symbols": [
+          "{\"K\":\"Assembly\",\"N\":\"ModelMapper.Core\",\"V\":\"1.0.0.0\"}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "NotApplicable",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "1",
+      "ParentId": "13",
+      "Name": "ModelMapper.Core.Handlers",
+      "Stereotype": "Namespace",
+      "CreatedAtUtc": "2024-09-25T07:30:48.9311857Z",
+      "AbsoluteTopLeft": "-919.4258,-713.5634",
+      "HeaderContentSize": "375.3133,27",
+      "PreferredHeaderSize": "248.54,27",
+      "Tooltip": "namespace ModelMapper.Core.Handlers\r\nassembly: ModelMapper.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "375.3133,511.2",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "373.3133,483.2",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynNamespace",
+        "SymbolName": "Handlers",
+        "FullyQualifiedName": "ModelMapper.Core.Handlers",
+        "FullName": "namespace ModelMapper.Core.Handlers",
+        "Symbols": [
+          "{\"K\":\"Namespace\",\"N\":\"Handlers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"ModelMapper\",\"C\":{\"K\":\"Assembly\",\"N\":\"ModelMapper.Core\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "NamespaceLevel": 3
+      }
+    },
+    {
+      "Id": "2",
+      "ParentId": "1",
+      "Name": "MapHandler",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2024-09-25T07:30:49.0459225Z",
+      "AbsoluteTopLeft": "-898.3502,-666.5634",
+      "HeaderContentSize": "301,76.4",
+      "PreferredHeaderSize": "301,76.4",
+      "Tooltip": "class ModelMapper.Core.Handlers.MapHandler\r\nassembly: ModelMapper.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "301,146.4",
+      "ChildrenAreaTopLeft": "1,76.4",
+      "ChildrenAreaSize": "299,69",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "MapHandler",
+        "FullName": "class ModelMapper.Core.Handlers.MapHandler",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"MapHandler\",\"C\":{\"K\":\"Namespace\",\"N\":\"Handlers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"ModelMapper\",\"C\":{\"K\":\"Assembly\",\"N\":\"ModelMapper.Core\",\"V\":\"1.0.0.0\"}}}}}"
+        ],
+        "Description": "The map handler maps the external model to the internal model by using the appropriate profiles",
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "6",
+      "ParentId": "2",
+      "Name": "IConverterProvider _converterProvider",
+      "Stereotype": "Field",
+      "CreatedAtUtc": "2024-09-25T07:31:45.3343045Z",
+      "AbsoluteTopLeft": "-897.3502,-590.1634",
+      "HeaderContentSize": "299,23",
+      "PreferredHeaderSize": "231.6867,23",
+      "Tooltip": "private readonly IConverterProvider _converterProvider",
+      "NodeTotalSize": "299,23",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "Other",
+        "SymbolName": "_converterProvider",
+        "FullName": "private readonly IConverterProvider _converterProvider",
+        "Symbols": [
+          "{\"K\":\"Field\",\"N\":\"_converterProvider\",\"C\":{\"K\":\"NamedType\",\"N\":\"MapHandler\",\"C\":{\"K\":\"Namespace\",\"N\":\"Handlers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"ModelMapper\",\"C\":{\"K\":\"Assembly\",\"N\":\"ModelMapper.Core\",\"V\":\"1.0.0.0\"}}}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "7",
+      "ParentId": "2",
+      "Name": "IModelProfiler _modelProfiler",
+      "Stereotype": "Field",
+      "CreatedAtUtc": "2024-09-25T07:31:48.2157813Z",
+      "AbsoluteTopLeft": "-897.3502,-567.1634",
+      "HeaderContentSize": "299,23",
+      "PreferredHeaderSize": "185.02,23",
+      "Tooltip": "private readonly IModelProfiler _modelProfiler",
+      "NodeTotalSize": "299,23",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "Other",
+        "SymbolName": "_modelProfiler",
+        "FullName": "private readonly IModelProfiler _modelProfiler",
+        "Symbols": [
+          "{\"K\":\"Field\",\"N\":\"_modelProfiler\",\"C\":{\"K\":\"NamedType\",\"N\":\"MapHandler\",\"C\":{\"K\":\"Namespace\",\"N\":\"Handlers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"ModelMapper\",\"C\":{\"K\":\"Assembly\",\"N\":\"ModelMapper.Core\",\"V\":\"1.0.0.0\"}}}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "8",
+      "ParentId": "2",
+      "Name": "ILogger _logger",
+      "Stereotype": "Field",
+      "CreatedAtUtc": "2024-09-25T07:31:49.7058391Z",
+      "AbsoluteTopLeft": "-897.3502,-544.1634",
+      "HeaderContentSize": "299,23",
+      "PreferredHeaderSize": "113.2433,23",
+      "Tooltip": "private readonly ILogger _logger",
+      "NodeTotalSize": "299,23",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "Other",
+        "SymbolName": "_logger",
+        "FullName": "private readonly ILogger _logger",
+        "Symbols": [
+          "{\"K\":\"Field\",\"N\":\"_logger\",\"C\":{\"K\":\"NamedType\",\"N\":\"MapHandler\",\"C\":{\"K\":\"Namespace\",\"N\":\"Handlers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"ModelMapper\",\"C\":{\"K\":\"Assembly\",\"N\":\"ModelMapper.Core\",\"V\":\"1.0.0.0\"}}}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Private",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "3",
+      "ParentId": "1",
+      "Name": "Payloads",
+      "Stereotype": "Namespace",
+      "CreatedAtUtc": "2024-09-25T07:31:17.7128012Z",
+      "AbsoluteTopLeft": "-898.4258,-460.1634",
+      "HeaderContentSize": "333.3133,27",
+      "PreferredHeaderSize": "142.4267,27",
+      "Tooltip": "namespace ModelMapper.Core.Handlers.Payloads\r\nassembly: ModelMapper.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "333.3133,226.8",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "331.3133,198.8",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynNamespace",
+        "SymbolName": "Payloads",
+        "FullyQualifiedName": "ModelMapper.Core.Handlers.Payloads",
+        "FullName": "namespace ModelMapper.Core.Handlers.Payloads",
+        "Symbols": [
+          "{\"K\":\"Namespace\",\"N\":\"Payloads\",\"C\":{\"K\":\"Namespace\",\"N\":\"Handlers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"ModelMapper\",\"C\":{\"K\":\"Assembly\",\"N\":\"ModelMapper.Core\",\"V\":\"1.0.0.0\"}}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "NamespaceLevel": 4
+      }
+    },
+    {
+      "Id": "4",
+      "ParentId": "3",
+      "Name": "JsonPayloadHandler",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2024-09-25T07:31:26.5095488Z",
+      "AbsoluteTopLeft": "-877.4258,-413.1634",
+      "HeaderContentSize": "291.3133,64.4",
+      "PreferredHeaderSize": "291.3133,64.4",
+      "Tooltip": "class ModelMapper.Core.Handlers.Payloads.JsonPayloadHandler\r\nassembly: ModelMapper.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "291.3133,64.4",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "JsonPayloadHandler",
+        "FullName": "class ModelMapper.Core.Handlers.Payloads.JsonPayloadHandler",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"JsonPayloadHandler\",\"C\":{\"K\":\"Namespace\",\"N\":\"Payloads\",\"C\":{\"K\":\"Namespace\",\"N\":\"Handlers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"ModelMapper\",\"C\":{\"K\":\"Assembly\",\"N\":\"ModelMapper.Core\",\"V\":\"1.0.0.0\"}}}}}}"
+        ],
+        "Description": "The json payload handler convert a json content to object type",
+        "IsDescriptionVisible": true,
+        "IsStatic": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "5",
+      "ParentId": "3",
+      "Name": "XmlPayloadHandler",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2024-09-25T07:31:31.3562959Z",
+      "AbsoluteTopLeft": "-872.3058,-318.7634",
+      "HeaderContentSize": "286.1933,64.4",
+      "PreferredHeaderSize": "286.1933,64.4",
+      "Tooltip": "class ModelMapper.Core.Handlers.Payloads.XmlPayloadHandler\r\nassembly: ModelMapper.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "286.1933,64.4",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "XmlPayloadHandler",
+        "FullName": "class ModelMapper.Core.Handlers.Payloads.XmlPayloadHandler",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"XmlPayloadHandler\",\"C\":{\"K\":\"Namespace\",\"N\":\"Payloads\",\"C\":{\"K\":\"Namespace\",\"N\":\"Handlers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"ModelMapper\",\"C\":{\"K\":\"Assembly\",\"N\":\"ModelMapper.Core\",\"V\":\"1.0.0.0\"}}}}}}"
+        ],
+        "Description": "The xml payload handler convert a xml content to object type",
+        "IsDescriptionVisible": true,
+        "IsStatic": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "9",
+      "ParentId": "13",
+      "Name": "IMapHandler",
+      "Stereotype": "Interface",
+      "CreatedAtUtc": "2024-09-25T07:32:36.6575469Z",
+      "AbsoluteTopLeft": "-908.9298,-849.9634",
+      "HeaderContentSize": "301,76.4",
+      "PreferredHeaderSize": "301,76.4",
+      "Tooltip": "interface ModelMapper.Core.Interfaces.IMapHandler\r\nassembly: ModelMapper.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "301,76.4",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "IMapHandler",
+        "FullName": "interface ModelMapper.Core.Interfaces.IMapHandler",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"IMapHandler\",\"C\":{\"K\":\"Namespace\",\"N\":\"Interfaces\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"ModelMapper\",\"C\":{\"K\":\"Assembly\",\"N\":\"ModelMapper.Core\",\"V\":\"1.0.0.0\"}}}}}"
+        ],
+        "Description": "The IMapHandler interface maps the source object to the target object",
+        "IsDescriptionVisible": true,
+        "IsAbstract": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "10",
+      "ParentId": "13",
+      "Name": "IConverterProvider",
+      "Stereotype": "Interface",
+      "CreatedAtUtc": "2024-09-25T07:33:17.2119267Z",
+      "AbsoluteTopLeft": "-367.7121,-385.3869",
+      "HeaderContentSize": "301.6297,76.3665",
+      "PreferredHeaderSize": "277.6967,64.4",
+      "Tooltip": "interface ModelMapper.Core.Interfaces.IConverterProvider\r\nassembly: ModelMapper.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "301.6297,76.3665",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "IConverterProvider",
+        "FullName": "interface ModelMapper.Core.Interfaces.IConverterProvider",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"IConverterProvider\",\"C\":{\"K\":\"Namespace\",\"N\":\"Interfaces\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"ModelMapper\",\"C\":{\"K\":\"Assembly\",\"N\":\"ModelMapper.Core\",\"V\":\"1.0.0.0\"}}}}}"
+        ],
+        "Description": "The converter provider interface that contains all converters",
+        "IsDescriptionVisible": true,
+        "IsAbstract": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "11",
+      "ParentId": "13",
+      "Name": "IModelProfiler",
+      "Stereotype": "Interface",
+      "CreatedAtUtc": "2024-09-25T07:33:19.8002565Z",
+      "AbsoluteTopLeft": "-370.3395,-279.0204",
+      "HeaderContentSize": "307.838,86.657",
+      "PreferredHeaderSize": "301,76.4",
+      "Tooltip": "interface ModelMapper.Core.Interfaces.IModelProfiler\r\nassembly: ModelMapper.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "307.838,86.657",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "IModelProfiler",
+        "FullName": "interface ModelMapper.Core.Interfaces.IModelProfiler",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"IModelProfiler\",\"C\":{\"K\":\"Namespace\",\"N\":\"Interfaces\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"ModelMapper\",\"C\":{\"K\":\"Assembly\",\"N\":\"ModelMapper.Core\",\"V\":\"1.0.0.0\"}}}}}"
+        ],
+        "Description": "The IModelProfiler provides all the configuration required to map the objects",
+        "IsDescriptionVisible": true,
+        "IsAbstract": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "14",
+      "Name": "ExternalClient.DataModel (1.0.0.0)",
+      "Stereotype": "Assembly",
+      "CreatedAtUtc": "2024-09-25T07:36:25.2753102Z",
+      "AbsoluteTopLeft": "-266.7141,-77.5245",
+      "HeaderContentSize": "922.9604,27",
+      "PreferredHeaderSize": "243.83,27",
+      "Tooltip": "assembly: ExternalClient.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "922.9604,806.6981",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "920.9604,778.6981",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "Other",
+        "SymbolName": "ExternalClient.DataModel",
+        "FullName": "assembly: ExternalClient.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Symbols": [
+          "{\"K\":\"Assembly\",\"N\":\"ExternalClient.DataModel\",\"V\":\"1.0.0.0\"}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "NotApplicable",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "22",
+      "ParentId": "14",
+      "Name": "ExternalClient",
+      "Stereotype": "Namespace",
+      "CreatedAtUtc": "2024-09-25T07:38:01.2977192Z",
+      "AbsoluteTopLeft": "-61.6766,-30.5245",
+      "HeaderContentSize": "677.7028,27",
+      "PreferredHeaderSize": "168.2733,27",
+      "Tooltip": "namespace ExternalClient\r\nassembly: ExternalClient.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "677.7028,677.1941",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "675.7028,649.1941",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynNamespace",
+        "SymbolName": "ExternalClient",
+        "FullyQualifiedName": "ExternalClient",
+        "FullName": "namespace ExternalClient",
+        "Symbols": [
+          "{\"K\":\"Namespace\",\"N\":\"ExternalClient\",\"C\":{\"K\":\"Assembly\",\"N\":\"ExternalClient.DataModel\",\"V\":\"1.0.0.0\"}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "NamespaceLevel": 1
+      }
+    },
+    {
+      "Id": "23",
+      "ParentId": "22",
+      "Name": "DataModel",
+      "Stereotype": "Namespace",
+      "CreatedAtUtc": "2024-09-25T07:38:03.5319031Z",
+      "AbsoluteTopLeft": "-40.6766,16.4755",
+      "HeaderContentSize": "635.7028,27",
+      "PreferredHeaderSize": "154.75,27",
+      "Tooltip": "namespace ExternalClient.DataModel\r\nassembly: ExternalClient.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "635.7027,609.1766",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "633.7027,581.1766",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynNamespace",
+        "SymbolName": "DataModel",
+        "FullyQualifiedName": "ExternalClient.DataModel",
+        "FullName": "namespace ExternalClient.DataModel",
+        "Symbols": [
+          "{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"ExternalClient\",\"C\":{\"K\":\"Assembly\",\"N\":\"ExternalClient.DataModel\",\"V\":\"1.0.0.0\"}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "NamespaceLevel": 2
+      }
+    },
+    {
+      "Id": "24",
+      "ParentId": "23",
+      "Name": "Google",
+      "Stereotype": "Namespace",
+      "CreatedAtUtc": "2024-09-25T07:38:09.6305020Z",
+      "AbsoluteTopLeft": "-19.6766,63.4755",
+      "HeaderContentSize": "145.3267,27",
+      "PreferredHeaderSize": "134.5433,27",
+      "Tooltip": "namespace ExternalClient.DataModel.Google\r\nassembly: ExternalClient.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "145.3267,306.8",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "143.3267,278.8",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynNamespace",
+        "SymbolName": "Google",
+        "FullyQualifiedName": "ExternalClient.DataModel.Google",
+        "FullName": "namespace ExternalClient.DataModel.Google",
+        "Symbols": [
+          "{\"K\":\"Namespace\",\"N\":\"Google\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"ExternalClient\",\"C\":{\"K\":\"Assembly\",\"N\":\"ExternalClient.DataModel\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "NamespaceLevel": 3
+      }
+    },
+    {
+      "Id": "25",
+      "ParentId": "24",
+      "Name": "Payment",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2024-09-25T07:38:17.7077529Z",
+      "AbsoluteTopLeft": "1.3234,110.4755",
+      "HeaderContentSize": "103.3267,64.4",
+      "PreferredHeaderSize": "103.3267,64.4",
+      "Tooltip": "class ExternalClient.DataModel.Google.Payment\r\nassembly: ExternalClient.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "103.3267,64.4",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "Payment",
+        "FullName": "class ExternalClient.DataModel.Google.Payment",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"Payment\",\"C\":{\"K\":\"Namespace\",\"N\":\"Google\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"ExternalClient\",\"C\":{\"K\":\"Assembly\",\"N\":\"ExternalClient.DataModel\",\"V\":\"1.0.0.0\"}}}}}"
+        ],
+        "Description": "The payment model",
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "26",
+      "ParentId": "24",
+      "Name": "Reservation",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2024-09-25T07:38:21.4939912Z",
+      "AbsoluteTopLeft": "4.65,204.8755",
+      "HeaderContentSize": "100,50",
+      "PreferredHeaderSize": "77.5167,39.4",
+      "Tooltip": "class ExternalClient.DataModel.Google.Reservation\r\nassembly: ExternalClient.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "100,50",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "Reservation",
+        "FullName": "class ExternalClient.DataModel.Google.Reservation",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"Reservation\",\"C\":{\"K\":\"Namespace\",\"N\":\"Google\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"ExternalClient\",\"C\":{\"K\":\"Assembly\",\"N\":\"ExternalClient.DataModel\",\"V\":\"1.0.0.0\"}}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "27",
+      "ParentId": "24",
+      "Name": "Room",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2024-09-25T07:38:23.6099893Z",
+      "AbsoluteTopLeft": "4.65,284.8755",
+      "HeaderContentSize": "100,64.4",
+      "PreferredHeaderSize": "71.3567,64.4",
+      "Tooltip": "class ExternalClient.DataModel.Google.Room\r\nassembly: ExternalClient.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "100,64.4",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "Room",
+        "FullName": "class ExternalClient.DataModel.Google.Room",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"Room\",\"C\":{\"K\":\"Namespace\",\"N\":\"Google\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"ExternalClient\",\"C\":{\"K\":\"Assembly\",\"N\":\"ExternalClient.DataModel\",\"V\":\"1.0.0.0\"}}}}}"
+        ],
+        "Description": "A room class",
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "28",
+      "ParentId": "23",
+      "Name": "Interfaces",
+      "Stereotype": "Namespace",
+      "CreatedAtUtc": "2024-09-25T07:38:55.1751299Z",
+      "AbsoluteTopLeft": "215.65,174.5356",
+      "HeaderContentSize": "343,27",
+      "PreferredHeaderSize": "147.2767,27",
+      "Tooltip": "namespace ExternalClient.DataModel.Interfaces\r\nassembly: ExternalClient.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "343,144.4",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "341,116.4",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynNamespace",
+        "SymbolName": "Interfaces",
+        "FullyQualifiedName": "ExternalClient.DataModel.Interfaces",
+        "FullName": "namespace ExternalClient.DataModel.Interfaces",
+        "Symbols": [
+          "{\"K\":\"Namespace\",\"N\":\"Interfaces\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"ExternalClient\",\"C\":{\"K\":\"Assembly\",\"N\":\"ExternalClient.DataModel\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "NamespaceLevel": 3
+      }
+    },
+    {
+      "Id": "29",
+      "ParentId": "28",
+      "Name": "IExternalModel",
+      "Stereotype": "Interface",
+      "CreatedAtUtc": "2024-09-25T07:39:02.6140477Z",
+      "AbsoluteTopLeft": "236.65,221.5356",
+      "HeaderContentSize": "301,76.4",
+      "PreferredHeaderSize": "301,76.4",
+      "Tooltip": "interface ExternalClient.DataModel.Interfaces.IExternalModel\r\nassembly: ExternalClient.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "301,76.4",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "IExternalModel",
+        "FullName": "interface ExternalClient.DataModel.Interfaces.IExternalModel",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"IExternalModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"Interfaces\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"ExternalClient\",\"C\":{\"K\":\"Assembly\",\"N\":\"ExternalClient.DataModel\",\"V\":\"1.0.0.0\"}}}}}"
+        ],
+        "Description": "The IExternalModel interface used to mark all the external model providing by external services like google, airbnb, etc...",
+        "IsDescriptionVisible": true,
+        "IsAbstract": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "15",
+      "Name": "DIRS21.DataModel (1.0.0.0)",
+      "Stereotype": "Assembly",
+      "CreatedAtUtc": "2024-09-25T07:36:33.2256863Z",
+      "AbsoluteTopLeft": "-1119.5548,-77.6258",
+      "HeaderContentSize": "762.8407,27",
+      "PreferredHeaderSize": "209.6533,27",
+      "Tooltip": "assembly: DIRS21.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "762.8407,807.8128",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "760.8407,779.8128",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "Other",
+        "SymbolName": "DIRS21.DataModel",
+        "FullName": "assembly: DIRS21.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Symbols": [
+          "{\"K\":\"Assembly\",\"N\":\"DIRS21.DataModel\",\"V\":\"1.0.0.0\"}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "NotApplicable",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "17",
+      "ParentId": "15",
+      "Name": "DIRS21",
+      "Stereotype": "Namespace",
+      "CreatedAtUtc": "2024-09-25T07:37:36.9976079Z",
+      "AbsoluteTopLeft": "-1095.945,-30.6258",
+      "HeaderContentSize": "635.0377,27",
+      "PreferredHeaderSize": "134.0967,27",
+      "Tooltip": "namespace DIRS21\r\nassembly: DIRS21.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "635.0377,732.1228",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "633.0377,704.1228",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynNamespace",
+        "SymbolName": "DIRS21",
+        "FullyQualifiedName": "DIRS21",
+        "FullName": "namespace DIRS21",
+        "Symbols": [
+          "{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.DataModel\",\"V\":\"1.0.0.0\"}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "NamespaceLevel": 1
+      }
+    },
+    {
+      "Id": "18",
+      "ParentId": "17",
+      "Name": "DataModel",
+      "Stereotype": "Namespace",
+      "CreatedAtUtc": "2024-09-25T07:37:43.2400560Z",
+      "AbsoluteTopLeft": "-1074.945,16.3742",
+      "HeaderContentSize": "593.0377,27",
+      "PreferredHeaderSize": "154.75,27",
+      "Tooltip": "namespace DIRS21.DataModel\r\nassembly: DIRS21.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "593.0377,664.1214",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "591.0377,636.1214",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynNamespace",
+        "SymbolName": "DataModel",
+        "FullyQualifiedName": "DIRS21.DataModel",
+        "FullName": "namespace DIRS21.DataModel",
+        "Symbols": [
+          "{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.DataModel\",\"V\":\"1.0.0.0\"}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "NamespaceLevel": 2
+      }
+    },
+    {
+      "Id": "19",
+      "ParentId": "18",
+      "Name": "Payment",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2024-09-25T07:37:47.5644445Z",
+      "AbsoluteTopLeft": "-1036.6405,354.7368",
+      "HeaderContentSize": "103.3267,64.4",
+      "PreferredHeaderSize": "103.3267,64.4",
+      "Tooltip": "class DIRS21.DataModel.Payment\r\nassembly: DIRS21.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "103.3267,64.4",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "Payment",
+        "FullName": "class DIRS21.DataModel.Payment",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"Payment\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.DataModel\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "Description": "The payment model",
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "20",
+      "ParentId": "18",
+      "Name": "Reservation",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2024-09-25T07:37:50.2661510Z",
+      "AbsoluteTopLeft": "-1053.945,234.9105",
+      "HeaderContentSize": "106.0933,64.4",
+      "PreferredHeaderSize": "106.0933,64.4",
+      "Tooltip": "class DIRS21.DataModel.Reservation\r\nassembly: DIRS21.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "106.0933,64.4",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "Reservation",
+        "FullName": "class DIRS21.DataModel.Reservation",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"Reservation\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.DataModel\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "Description": "The reservation class",
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "21",
+      "ParentId": "18",
+      "Name": "Room",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2024-09-25T07:37:54.3169675Z",
+      "AbsoluteTopLeft": "-1038.1751,449.1368",
+      "HeaderContentSize": "100,64.4",
+      "PreferredHeaderSize": "71.3567,64.4",
+      "Tooltip": "class DIRS21.DataModel.Room\r\nassembly: DIRS21.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "100,64.4",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "Room",
+        "FullName": "class DIRS21.DataModel.Room",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"Room\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.DataModel\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "Description": "A room class",
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "30",
+      "ParentId": "18",
+      "Name": "Interfaces",
+      "Stereotype": "Namespace",
+      "CreatedAtUtc": "2024-09-25T07:39:18.8066235Z",
+      "AbsoluteTopLeft": "-857.8516,392.8613",
+      "HeaderContentSize": "343,27",
+      "PreferredHeaderSize": "147.2767,27",
+      "Tooltip": "namespace DIRS21.DataModel.Interfaces\r\nassembly: DIRS21.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "343,156.4",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "341,128.4",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynNamespace",
+        "SymbolName": "Interfaces",
+        "FullyQualifiedName": "DIRS21.DataModel.Interfaces",
+        "FullName": "namespace DIRS21.DataModel.Interfaces",
+        "Symbols": [
+          "{\"K\":\"Namespace\",\"N\":\"Interfaces\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.DataModel\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "NamespaceLevel": 3
+      }
+    },
+    {
+      "Id": "31",
+      "ParentId": "30",
+      "Name": "IMirrorModel",
+      "Stereotype": "Interface",
+      "CreatedAtUtc": "2024-09-25T07:39:23.7451701Z",
+      "AbsoluteTopLeft": "-836.8516,439.8613",
+      "HeaderContentSize": "301,88.4",
+      "PreferredHeaderSize": "301,88.4",
+      "Tooltip": "interface DIRS21.DataModel.Interfaces.IMirrorModel\r\nassembly: DIRS21.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "301,88.4",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "IMirrorModel",
+        "FullName": "interface DIRS21.DataModel.Interfaces.IMirrorModel",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"IMirrorModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"Interfaces\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.DataModel\",\"V\":\"1.0.0.0\"}}}}}"
+        ],
+        "Description": "The IMirrorModel interface used to mark all the internal model used to mapp the models of the external services like google, airbnb, etc...",
+        "IsDescriptionVisible": true,
+        "IsAbstract": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "32",
+      "ParentId": "18",
+      "Name": "BaseMirrorModel",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2024-09-25T07:41:45.4945138Z",
+      "AbsoluteTopLeft": "-667.0309,242.9905",
+      "HeaderContentSize": "138.49,64.4",
+      "PreferredHeaderSize": "138.49,64.4",
+      "Tooltip": "class DIRS21.DataModel.BaseMirrorModel\r\nassembly: DIRS21.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "138.49,64.4",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "BaseMirrorModel",
+        "FullName": "class DIRS21.DataModel.BaseMirrorModel",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"BaseMirrorModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.DataModel\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "Description": "The base mirror model class",
+        "IsDescriptionVisible": true,
+        "IsAbstract": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "33",
+      "ParentId": "18",
+      "Name": "MirrorModel",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2024-09-25T07:41:52.8161623Z",
+      "AbsoluteTopLeft": "-888.805,148.8323",
+      "HeaderContentSize": "208.4367,64.4",
+      "PreferredHeaderSize": "208.4367,64.4",
+      "Tooltip": "class DIRS21.DataModel.MirrorModel\r\nassembly: DIRS21.DataModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "208.4367,64.4",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "MirrorModel",
+        "FullName": "class DIRS21.DataModel.MirrorModel",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"MirrorModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.DataModel\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "Description": "The base model class for the DIRS21 system",
+        "IsDescriptionVisible": true,
+        "IsAbstract": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "16",
+      "Name": "DIRS21.Core (1.0.0.0)",
+      "Stereotype": "Assembly",
+      "CreatedAtUtc": "2024-09-25T07:36:37.9571147Z",
+      "AbsoluteTopLeft": "-814.6576,840.0595",
+      "HeaderContentSize": "1317.6095,27",
+      "PreferredHeaderSize": "175.8133,27",
+      "Tooltip": "assembly: DIRS21.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "1317.6095,610.0399",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "1315.6095,582.0399",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "Other",
+        "SymbolName": "DIRS21.Core",
+        "FullName": "assembly: DIRS21.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "Symbols": [
+          "{\"K\":\"Assembly\",\"N\":\"DIRS21.Core\",\"V\":\"1.0.0.0\"}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "NotApplicable",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "34",
+      "ParentId": "16",
+      "Name": "DIRS21",
+      "Stereotype": "Namespace",
+      "CreatedAtUtc": "2024-09-25T07:42:59.3996554Z",
+      "AbsoluteTopLeft": "-605.9299,887.0595",
+      "HeaderContentSize": "832.8943,27",
+      "PreferredHeaderSize": "134.0967,27",
+      "Tooltip": "namespace DIRS21\r\nassembly: DIRS21.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "832.8943,538.1958",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "830.8943,510.1958",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynNamespace",
+        "SymbolName": "DIRS21",
+        "FullyQualifiedName": "DIRS21",
+        "FullName": "namespace DIRS21",
+        "Symbols": [
+          "{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.Core\",\"V\":\"1.0.0.0\"}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "NamespaceLevel": 1
+      }
+    },
+    {
+      "Id": "35",
+      "ParentId": "34",
+      "Name": "Core",
+      "Stereotype": "Namespace",
+      "CreatedAtUtc": "2024-09-25T07:43:02.7520247Z",
+      "AbsoluteTopLeft": "-584.9299,934.0595",
+      "HeaderContentSize": "790.8943,27",
+      "PreferredHeaderSize": "120.91,27",
+      "Tooltip": "namespace DIRS21.Core\r\nassembly: DIRS21.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "790.8943,470.1958",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "788.8943,442.1958",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynNamespace",
+        "SymbolName": "Core",
+        "FullyQualifiedName": "DIRS21.Core",
+        "FullName": "namespace DIRS21.Core",
+        "Symbols": [
+          "{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.Core\",\"V\":\"1.0.0.0\"}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "NamespaceLevel": 2
+      }
+    },
+    {
+      "Id": "36",
+      "ParentId": "35",
+      "Name": "BaseModel",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2024-09-25T07:43:06.5772501Z",
+      "AbsoluteTopLeft": "-563.9299,981.0595",
+      "HeaderContentSize": "172.2967,64.4",
+      "PreferredHeaderSize": "172.2967,64.4",
+      "Tooltip": "class DIRS21.Core.BaseModel\r\nassembly: DIRS21.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "172.2967,64.4",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "BaseModel",
+        "FullName": "class DIRS21.Core.BaseModel",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"BaseModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.Core\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "Description": "The base entity class for the entities",
+        "IsDescriptionVisible": true,
+        "IsAbstract": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "37",
+      "ParentId": "35",
+      "Name": "Result",
+      "Stereotype": "Namespace",
+      "CreatedAtUtc": "2024-09-25T07:43:08.0731378Z",
+      "AbsoluteTopLeft": "-429.4554,1105.4595",
+      "HeaderContentSize": "614.4198,27",
+      "PreferredHeaderSize": "127.96,27",
+      "Tooltip": "namespace DIRS21.Core.Result\r\nassembly: DIRS21.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "614.4198,277.7958",
+      "ChildrenAreaTopLeft": "1,27",
+      "ChildrenAreaSize": "612.4198,249.7958",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynNamespace",
+        "SymbolName": "Result",
+        "FullyQualifiedName": "DIRS21.Core.Result",
+        "FullName": "namespace DIRS21.Core.Result",
+        "Symbols": [
+          "{\"K\":\"Namespace\",\"N\":\"Result\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.Core\",\"V\":\"1.0.0.0\"}}}}"
+        ],
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode",
+        "NamespaceLevel": 3
+      }
+    },
+    {
+      "Id": "38",
+      "ParentId": "37",
+      "Name": "OperationResult",
+      "Stereotype": "Class",
+      "CreatedAtUtc": "2024-09-25T07:43:20.1556278Z",
+      "AbsoluteTopLeft": "-376.5996,1165.2939",
+      "HeaderContentSize": "301,76.4",
+      "PreferredHeaderSize": "301,76.4",
+      "Tooltip": "record DIRS21.Core.Result.OperationResult\r\nassembly: DIRS21.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "301,76.4",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "OperationResult",
+        "FullName": "record DIRS21.Core.Result.OperationResult",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"OperationResult\",\"C\":{\"K\":\"Namespace\",\"N\":\"Result\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.Core\",\"V\":\"1.0.0.0\"}}}}}"
+        ],
+        "Description": "The operation result class provides informations about a task or process",
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    },
+    {
+      "Id": "39",
+      "ParentId": "37",
+      "Name": "ResultType",
+      "Stereotype": "Enum",
+      "CreatedAtUtc": "2024-09-25T07:43:27.0680672Z",
+      "AbsoluteTopLeft": "-22.5045,1297.8526",
+      "HeaderContentSize": "186.4633,64.4",
+      "PreferredHeaderSize": "186.4633,64.4",
+      "Tooltip": "enum DIRS21.Core.Result.ResultType\r\nassembly: DIRS21.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "NodeTotalSize": "186.4633,64.4",
+      "IsPinned": true,
+      "Payload": {
+        "Discriminator": "RoslynType",
+        "SymbolName": "ResultType",
+        "FullName": "enum DIRS21.Core.Result.ResultType",
+        "Symbols": [
+          "{\"K\":\"NamedType\",\"N\":\"ResultType\",\"C\":{\"K\":\"Namespace\",\"N\":\"Result\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.Core\",\"V\":\"1.0.0.0\"}}}}}"
+        ],
+        "Description": "The result type od an operation or task",
+        "IsDescriptionVisible": true,
+        "Accessibility": "Public",
+        "Origin": "SourceCode"
+      }
+    }
+  ],
+  "Connectors": [
+    {
+      "Id": "1",
+      "SourceNodeId": "2",
+      "TargetNodeId": "9",
+      "Stereotype": "Implementation",
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"MapHandler\",\"C\":{\"K\":\"Namespace\",\"N\":\"Handlers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"ModelMapper\",\"C\":{\"K\":\"Assembly\",\"N\":\"ModelMapper.Core\",\"V\":\"1.0.0.0\"}}}}}|Implementation|{\"K\":\"NamedType\",\"N\":\"IMapHandler\",\"C\":{\"K\":\"Namespace\",\"N\":\"Interfaces\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"ModelMapper\",\"C\":{\"K\":\"Assembly\",\"N\":\"ModelMapper.Core\",\"V\":\"1.0.0.0\"}}}}}"
+      }
+    },
+    {
+      "Id": "2",
+      "SourceNodeId": "2",
+      "TargetNodeId": "10",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"MapHandler\",\"C\":{\"K\":\"Namespace\",\"N\":\"Handlers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"ModelMapper\",\"C\":{\"K\":\"Assembly\",\"N\":\"ModelMapper.Core\",\"V\":\"1.0.0.0\"}}}}}|Association|{\"K\":\"NamedType\",\"N\":\"IConverterProvider\",\"C\":{\"K\":\"Namespace\",\"N\":\"Interfaces\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"ModelMapper\",\"C\":{\"K\":\"Assembly\",\"N\":\"ModelMapper.Core\",\"V\":\"1.0.0.0\"}}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_converterProvider",
+              "Tooltip": "private readonly IConverterProvider _converterProvider",
+              "CanBeHidden": true
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_converterProvider\",\"C\":{\"K\":\"NamedType\",\"N\":\"MapHandler\",\"C\":{\"K\":\"Namespace\",\"N\":\"Handlers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"ModelMapper\",\"C\":{\"K\":\"Assembly\",\"N\":\"ModelMapper.Core\",\"V\":\"1.0.0.0\"}}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "3",
+      "SourceNodeId": "2",
+      "TargetNodeId": "11",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"MapHandler\",\"C\":{\"K\":\"Namespace\",\"N\":\"Handlers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"ModelMapper\",\"C\":{\"K\":\"Assembly\",\"N\":\"ModelMapper.Core\",\"V\":\"1.0.0.0\"}}}}}|Association|{\"K\":\"NamedType\",\"N\":\"IModelProfiler\",\"C\":{\"K\":\"Namespace\",\"N\":\"Interfaces\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"ModelMapper\",\"C\":{\"K\":\"Assembly\",\"N\":\"ModelMapper.Core\",\"V\":\"1.0.0.0\"}}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_modelProfiler",
+              "Tooltip": "private readonly IModelProfiler _modelProfiler",
+              "CanBeHidden": true
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_modelProfiler\",\"C\":{\"K\":\"NamedType\",\"N\":\"MapHandler\",\"C\":{\"K\":\"Namespace\",\"N\":\"Handlers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"ModelMapper\",\"C\":{\"K\":\"Assembly\",\"N\":\"ModelMapper.Core\",\"V\":\"1.0.0.0\"}}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "4",
+      "SourceNodeId": "2",
+      "TargetNodeId": "12",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"MapHandler\",\"C\":{\"K\":\"Namespace\",\"N\":\"Handlers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"ModelMapper\",\"C\":{\"K\":\"Assembly\",\"N\":\"ModelMapper.Core\",\"V\":\"1.0.0.0\"}}}}}|Association|{\"K\":\"NamedType\",\"N\":\"ILogger\",\"C\":{\"K\":\"Namespace\",\"N\":\"NLog\",\"C\":{\"K\":\"Assembly\",\"N\":\"NLog\",\"V\":\"5.0.0.0\"}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "_logger",
+              "Tooltip": "private readonly ILogger _logger",
+              "CanBeHidden": true
+            },
+            "Symbol": "{\"K\":\"Field\",\"N\":\"_logger\",\"C\":{\"K\":\"NamedType\",\"N\":\"MapHandler\",\"C\":{\"K\":\"Namespace\",\"N\":\"Handlers\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"ModelMapper\",\"C\":{\"K\":\"Assembly\",\"N\":\"ModelMapper.Core\",\"V\":\"1.0.0.0\"}}}}}}"
+          }
+        ]
+      }
+    },
+    {
+      "Id": "5",
+      "SourceNodeId": "13",
+      "TargetNodeId": "14",
+      "Stereotype": "AssemblyReference",
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "{\"K\":\"Assembly\",\"N\":\"ModelMapper.Core\",\"V\":\"1.0.0.0\"}|AssemblyReference|{\"K\":\"Assembly\",\"N\":\"ExternalClient.DataModel\",\"V\":\"1.0.0.0\"}"
+      }
+    },
+    {
+      "Id": "6",
+      "SourceNodeId": "13",
+      "TargetNodeId": "15",
+      "Stereotype": "AssemblyReference",
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "{\"K\":\"Assembly\",\"N\":\"ModelMapper.Core\",\"V\":\"1.0.0.0\"}|AssemblyReference|{\"K\":\"Assembly\",\"N\":\"DIRS21.DataModel\",\"V\":\"1.0.0.0\"}"
+      }
+    },
+    {
+      "Id": "8",
+      "SourceNodeId": "14",
+      "TargetNodeId": "16",
+      "Stereotype": "AssemblyReference",
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "{\"K\":\"Assembly\",\"N\":\"ExternalClient.DataModel\",\"V\":\"1.0.0.0\"}|AssemblyReference|{\"K\":\"Assembly\",\"N\":\"DIRS21.Core\",\"V\":\"1.0.0.0\"}"
+      }
+    },
+    {
+      "Id": "9",
+      "SourceNodeId": "15",
+      "TargetNodeId": "16",
+      "Stereotype": "AssemblyReference",
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "{\"K\":\"Assembly\",\"N\":\"DIRS21.DataModel\",\"V\":\"1.0.0.0\"}|AssemblyReference|{\"K\":\"Assembly\",\"N\":\"DIRS21.Core\",\"V\":\"1.0.0.0\"}"
+      }
+    },
+    {
+      "Id": "10",
+      "SourceNodeId": "25",
+      "TargetNodeId": "29",
+      "Stereotype": "Implementation",
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"Payment\",\"C\":{\"K\":\"Namespace\",\"N\":\"Google\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"ExternalClient\",\"C\":{\"K\":\"Assembly\",\"N\":\"ExternalClient.DataModel\",\"V\":\"1.0.0.0\"}}}}}|Implementation|{\"K\":\"NamedType\",\"N\":\"IExternalModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"Interfaces\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"ExternalClient\",\"C\":{\"K\":\"Assembly\",\"N\":\"ExternalClient.DataModel\",\"V\":\"1.0.0.0\"}}}}}"
+      }
+    },
+    {
+      "Id": "11",
+      "SourceNodeId": "26",
+      "TargetNodeId": "29",
+      "Stereotype": "Implementation",
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"Reservation\",\"C\":{\"K\":\"Namespace\",\"N\":\"Google\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"ExternalClient\",\"C\":{\"K\":\"Assembly\",\"N\":\"ExternalClient.DataModel\",\"V\":\"1.0.0.0\"}}}}}|Implementation|{\"K\":\"NamedType\",\"N\":\"IExternalModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"Interfaces\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"ExternalClient\",\"C\":{\"K\":\"Assembly\",\"N\":\"ExternalClient.DataModel\",\"V\":\"1.0.0.0\"}}}}}"
+      }
+    },
+    {
+      "Id": "12",
+      "SourceNodeId": "27",
+      "TargetNodeId": "29",
+      "Stereotype": "Implementation",
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"Room\",\"C\":{\"K\":\"Namespace\",\"N\":\"Google\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"ExternalClient\",\"C\":{\"K\":\"Assembly\",\"N\":\"ExternalClient.DataModel\",\"V\":\"1.0.0.0\"}}}}}|Implementation|{\"K\":\"NamedType\",\"N\":\"IExternalModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"Interfaces\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"ExternalClient\",\"C\":{\"K\":\"Assembly\",\"N\":\"ExternalClient.DataModel\",\"V\":\"1.0.0.0\"}}}}}"
+      }
+    },
+    {
+      "Id": "13",
+      "SourceNodeId": "20",
+      "TargetNodeId": "32",
+      "Stereotype": "Inheritance",
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"Reservation\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.DataModel\",\"V\":\"1.0.0.0\"}}}}|Inheritance|{\"K\":\"NamedType\",\"N\":\"BaseMirrorModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.DataModel\",\"V\":\"1.0.0.0\"}}}}"
+      }
+    },
+    {
+      "Id": "14",
+      "SourceNodeId": "32",
+      "TargetNodeId": "31",
+      "Stereotype": "Implementation",
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"BaseMirrorModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.DataModel\",\"V\":\"1.0.0.0\"}}}}|Implementation|{\"K\":\"NamedType\",\"N\":\"IMirrorModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"Interfaces\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.DataModel\",\"V\":\"1.0.0.0\"}}}}}"
+      }
+    },
+    {
+      "Id": "15",
+      "SourceNodeId": "19",
+      "TargetNodeId": "33",
+      "Stereotype": "Inheritance",
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"Payment\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.DataModel\",\"V\":\"1.0.0.0\"}}}}|Inheritance|{\"K\":\"NamedType\",\"N\":\"MirrorModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.DataModel\",\"V\":\"1.0.0.0\"}}}}"
+      }
+    },
+    {
+      "Id": "16",
+      "SourceNodeId": "21",
+      "TargetNodeId": "33",
+      "Stereotype": "Inheritance",
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"Room\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.DataModel\",\"V\":\"1.0.0.0\"}}}}|Inheritance|{\"K\":\"NamedType\",\"N\":\"MirrorModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.DataModel\",\"V\":\"1.0.0.0\"}}}}"
+      }
+    },
+    {
+      "Id": "17",
+      "SourceNodeId": "33",
+      "TargetNodeId": "32",
+      "Stereotype": "Inheritance",
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"MirrorModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.DataModel\",\"V\":\"1.0.0.0\"}}}}|Inheritance|{\"K\":\"NamedType\",\"N\":\"BaseMirrorModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.DataModel\",\"V\":\"1.0.0.0\"}}}}"
+      }
+    },
+    {
+      "Id": "18",
+      "SourceNodeId": "32",
+      "TargetNodeId": "36",
+      "Stereotype": "Inheritance",
+      "Payload": {
+        "Discriminator": "Other",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"BaseMirrorModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DataModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.DataModel\",\"V\":\"1.0.0.0\"}}}}|Inheritance|{\"K\":\"NamedType\",\"N\":\"BaseModel\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.Core\",\"V\":\"1.0.0.0\"}}}}"
+      }
+    },
+    {
+      "Id": "19",
+      "SourceNodeId": "38",
+      "TargetNodeId": "39",
+      "Stereotype": "Association",
+      "Payload": {
+        "Discriminator": "Association",
+        "Relationship": "{\"K\":\"NamedType\",\"N\":\"OperationResult\",\"C\":{\"K\":\"Namespace\",\"N\":\"Result\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.Core\",\"V\":\"1.0.0.0\"}}}}}|Association|{\"K\":\"NamedType\",\"N\":\"ResultType\",\"C\":{\"K\":\"Namespace\",\"N\":\"Result\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.Core\",\"V\":\"1.0.0.0\"}}}}}",
+        "TargetLabels": [
+          {
+            "Label": {
+              "Text2": "ResultType",
+              "Tooltip": "public ResultType ResultType { get; init; }",
+              "CanBeHidden": true
+            },
+            "Symbol": "{\"K\":\"Property\",\"N\":\"ResultType\",\"C\":{\"K\":\"NamedType\",\"N\":\"OperationResult\",\"C\":{\"K\":\"Namespace\",\"N\":\"Result\",\"C\":{\"K\":\"Namespace\",\"N\":\"Core\",\"C\":{\"K\":\"Namespace\",\"N\":\"DIRS21\",\"C\":{\"K\":\"Assembly\",\"N\":\"DIRS21.Core\",\"V\":\"1.0.0.0\"}}}}}}"
+          }
+        ]
+      }
+    }
+  ]
+}
