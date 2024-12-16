@@ -220,7 +220,7 @@ public class MapHandler(IModelProfiler modelProfiler, IConverterProvider convert
                 }
                 else
                 {
-                    targetValue = _converterProvider.GetConverterMethod(targetProperty.PropertyType)?.Invoke(sourcePropertyValue!);
+                    targetValue = _converterProvider.Convert((sourceProperty.PropertyType,targetProperty.PropertyType),sourcePropertyValue!);
                 }
                 targetProperty.SetValue(target, targetValue);
             }

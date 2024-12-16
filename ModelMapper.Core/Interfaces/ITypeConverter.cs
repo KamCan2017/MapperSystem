@@ -3,19 +3,32 @@
 /// <summary>
 /// The type converter interface
 /// </summary>
-public interface ITypeConverter
+internal interface ITypeConverter<T,V>: ITypeConverter
 {
     /// <summary>
     /// Gets the method to convert an object to another target type.
     /// </summary>
     /// <returns>The convertion method</returns>
-    Func<object, object> GetMethod();
+    //Func<object, object> GetMethod();
 
+    Func<T, V> GetMethod();
+
+}
+
+public interface ITypeConverter
+{
     /// <summary>
-    /// Gets the type of the target.
+    /// Gets the source-type.
     /// </summary>
     /// <value>
-    /// The type of the target.
+    /// The source type paramters.
     /// </value>
-    Type TargetType { get; }
+    (Type, Type) SourceTargetTypes { get; }
+
+    /// <summary>
+    /// Invokes the specified object.
+    /// </summary>
+    /// <param name="obj">The object.</param>
+    /// <returns></returns>
+    object Invoke(object obj);
 }

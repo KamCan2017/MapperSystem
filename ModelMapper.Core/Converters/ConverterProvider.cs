@@ -7,7 +7,7 @@ namespace ModelMapper.Core.Converters;
 /// </summary>
 public class ConverterProvider : IConverterProvider
 {
-    private readonly Dictionary<Type, ITypeConverter> _converters = [];
+    private readonly Dictionary<(Type,Type), ITypeConverter> _converters = [];
 
     public ConverterProvider()
     {
@@ -17,17 +17,17 @@ public class ConverterProvider : IConverterProvider
     {
         //Add the default converter at first converter. It will be used as default converter
         ITypeConverter converter = new DefaultConverter();
-        _converters.Add(converter.TargetType, converter);
+        _converters.Add(converter.SourceTargetTypes, converter);
 
         //Add the guid converter
         converter = new GuidConverter();
-        _converters.Add(converter.TargetType, converter);
+        _converters.Add(converter.SourceTargetTypes, converter);
 
     }
 
-    public Func<object, object>? GetConverterMethod(Type type)
+    public object? Convert((Type,Type) sourceTargetType, object input)
     {
-        if (!_converters.TryGetValue(type, out ITypeConverter? converter)) return _converters.First().Value.GetMethod();
-        return converter.GetMethod();
+        if (!_converters.TryGetValue(sourceTargetType, out ITypeConverter? converter)) return _converters.First().Value.Invoke(input);
+        return converter.Invoke(input);
     }
 }

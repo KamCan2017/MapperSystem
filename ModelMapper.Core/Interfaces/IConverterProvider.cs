@@ -6,10 +6,11 @@
     public interface IConverterProvider
     {
         /// <summary>
-        /// Gets the converter method.
+        /// Converts the specified source target type.
         /// </summary>
-        /// <param name="type">The type.</param>
-        /// <returns>The converter method</returns>
-        Func<object, object>? GetConverterMethod(Type type);
+        /// <param name="sourceTargetType">Type of the source target.</param>
+        /// <param name="input">The input.</param>
+        /// <returns></returns>
+        object? Convert((Type, Type) sourceTargetType, object input);
     }
 }

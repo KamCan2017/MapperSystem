@@ -7,7 +7,7 @@ namespace ModelMapper.Core.Converters
     /// <summary>
     /// The Guid converter
     /// </summary>
-    public class GuidConverter : ITypeConverter
+    public class GuidConverter : BaseConverter, ITypeConverter<string,Guid>
     {
         /// <summary>
         /// Gets the type of the target.
@@ -15,15 +15,15 @@ namespace ModelMapper.Core.Converters
         /// <value>
         /// The type of the target.
         /// </value>
-        public Type TargetType => typeof(Guid);
+        public (Type, Type) SourceTargetTypes => (typeof(string), typeof(Guid)); 
 
         /// <summary>
         /// Gets the method.
         /// </summary>
         /// <returns>The convertion method</returns>
-        public Func<object, object> GetMethod()
+        public Func<string, Guid> GetMethod()
         {
-            Func<object, object> func = (input) =>
+            Func<object, Guid> func = (input) =>
             {
                 if (!Guid.TryParse(input?.ToString(), out Guid result))
                 {
@@ -34,6 +34,11 @@ namespace ModelMapper.Core.Converters
             };
 
             return func;
+        }
+
+        public override object Invoke(object obj)
+        {
+            return GetMethod().Invoke(obj?.ToString()!);
         }
     }
 }
